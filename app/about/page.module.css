@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; /* Center the content */
+    margin: auto;     /* Center alignment */
+    padding: 1rem;    /* Padding for spacing */
+  }
+  
+  .main {
+    flex: 1;          /* Allow this section to grow */
+    padding: 2rem;    /* Padding around main content */
+  }
+  
+  .heading {
+    color: #0070f3;   /* Main heading color */
+    margin: 1rem 0;   /* Vertical spacing for the heading */
+  }
+  
+  .paragraph {
+    margin: 1rem 0;   /* Vertical spacing between paragraphs */
+  }
+  

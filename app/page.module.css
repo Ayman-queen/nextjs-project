@@ -1,0 +1,50 @@
+/* Container for the main content */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;  /* Center the content */
+    margin: auto;      /* Center alignment */
+    padding: 1rem;     /* Padding for spacing */
+  }
+  
+  /* Main content area */
+  .main {
+    flex: 1;           /* Allow this section to grow */
+    padding: 2rem;     /* Padding around main content */
+  }
+  
+  /* Styles for featured articles section */
+  .features {
+    margin-top: 2rem;  /* Space above features section */
+  }
+  
+  /* Individual article card */
+  .article {
+    background: #f7f7f7; /* Light background for articles */
+    margin: 1rem 0;      /* Vertical spacing between articles */
+    padding: 1rem;       /* Padding inside each article */
+    border-radius: 5px;  /* Rounded corners */
+  }
+  
+  /* Call-to-action section */
+  .cta {
+    margin-top: 2rem;    /* Space above CTA section */
+    text-align: center;   /* Center align text */
+  }
+  
+  /* Styles for the subscribe button */
+  .subscribeButton {
+    background: #0070f3; /* Button background color */
+    color: white;         /* Text color */
+    border: none;         /* Remove border */
+    padding: 0.5rem 1rem; /* Padding inside button */
+    border-radius: 5px;   /* Rounded corners */
+    cursor: pointer;       /* Pointer cursor on hover */
+    font-size: 1rem;      /* Font size */
+  }
+  
+  /* Hover effect for the subscribe button */
+  .subscribeButton:hover {
+    background: #005bb5; /* Darker shade on hover */
+  }
+  
